@@ -7,7 +7,7 @@
 	<deviceEndianness value="little"/>
 	<codegenToolVersion value="18.1.1.LTS"/>
 	<isElfFormat value="true"/>
-	<connection value="common/targetdb/connections/TIMSP430-USB.xml"/>
+	<connection value="common/targetdb/connections/uart_connection.xml"/>
 	<linkerCommandFile value="lnk_msp430g2553.cmd"/>
 	<rts value="libc.a"/>
 	<createSlaveProjects value=""/>
