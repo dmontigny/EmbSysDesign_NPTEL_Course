@@ -4,6 +4,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.MSP430G2553.ccxml.TI MSP430 USB1/MSP430" value="${build_artifact:Exp01_LunchBox_UART_Template}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.MSP430G2553.ccxml.TI MSP430 USB1/MSP430" value="Exp01_LunchBox_UART_Template"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:Exp01_LunchBox_UART_Template}"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP430G2553.ccxml.TI MSP430 USB1/MSP430" value="/home/dmontylx/courses/EmbSysDesign_NPTEL_Course/Software/Examples_Msp430G2553_LunchBox/Exp01_LunchBox_UART_Template/Debug/Exp01_LunchBox_UART_Template.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/Exp01_LunchBox_UART_Template"/>
 </listAttribute>
