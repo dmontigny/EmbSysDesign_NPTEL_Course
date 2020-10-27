@@ -1,3 +1,4 @@
+// Intro to Embedded Systems course
 #include <msp430.h> 
 
 
@@ -6,8 +7,10 @@ int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	//! Stop Watchdog (Not recommended for code in production and devices working in field)
 
-	//P1DIR |= BIT7;
-	P1DIR |= 0x80;            // P1.7 (Red LED)
+    P1OUT &=~ 0x41;                  // turn off LEDs
+
+	//P1DIR |= BIT6;
+	P1DIR |= 0x41;            // P1.6 (Red LED)
 
     while(1)
     {
@@ -20,5 +23,13 @@ int main(void)
         //P1OUT &=~ BIT6;
         P1OUT &= ~0x40;             //Red LED -> OFF
         for(i = 0; i<10000; i++);   //delay
+
+        //P1OUT |= BIT0;
+        P1OUT |= 0x01;              //Green LED -> ON
+        for(i = 0; i<10000; i++);   //delay
+
+        P1OUT &= ~0x01;             //Green LED -> OFF
+        for(i = 0; i<10000; i++);   //delay
+
     }
 }

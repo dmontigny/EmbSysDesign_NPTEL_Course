@@ -1,7 +1,7 @@
 #include <msp430.h> 
 
 #define SW  BIT3                    // Switch -> P1.3 (On-board Switch, Pull-Up configuration)
-#define LED BIT7                    // Red LED -> P1.7 (On-Board LED, Active High Configuration)
+#define LED BIT6                    // Red LED -> P1.6 (On-Board LED, Active High Configuration)
 
 /*@brief entry point for the code*/
 void main(void) {

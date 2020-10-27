@@ -1,7 +1,7 @@
 #include <msp430.h> 
 
 #define SW  BIT3                    // Switch -> P1.3
-#define LED BIT7                    // Red LED -> P1.7
+#define LED BIT6                    // Red LED -> P1.6
 
 /*@brief entry point for the code*/
 void main(void) {
