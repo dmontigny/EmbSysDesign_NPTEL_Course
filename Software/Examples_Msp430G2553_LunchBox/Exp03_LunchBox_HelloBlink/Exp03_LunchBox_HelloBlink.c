@@ -13,12 +13,12 @@ int main(void)
     {
         volatile unsigned long i;
 
-        //P1OUT |= BIT7;
-        P1OUT |= 0x80;              //Red LED -> ON
+        //P1OUT |= BIT6;
+        P1OUT |= 0x40;              //Red LED -> ON
         for(i = 0; i<10000; i++);   //delay
 
-        //P1OUT &=~ BIT7;
-        P1OUT &= ~0x80;             //Red LED -> OFF
+        //P1OUT &=~ BIT6;
+        P1OUT &= ~0x40;             //Red LED -> OFF
         for(i = 0; i<10000; i++);   //delay
     }
 }
