@@ -8,6 +8,8 @@
  * An example of multi-line comments
  * @brief entry point for the code
  */
+
+// monitor port: sudo cat /proc/tty/driver/serial | grep 4:
 int main(void)
 {
     //! Stop Watchdog (Not recommended for code in production and devices working in field)
