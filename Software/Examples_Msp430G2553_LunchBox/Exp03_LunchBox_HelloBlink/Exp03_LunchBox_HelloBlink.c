@@ -23,8 +23,7 @@ int main(void)
     {
         volatile unsigned long i;
 
-        //P1OUT |= BIT6;
-        P1OUT |= 0x40;              //Red LED -> ON
+        P1OUT |= BIT6;              //Red LED -> ON
         printf("R\r\n");
         for(i = 0; i<10000; i++);   //delay
 
