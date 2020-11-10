@@ -4,7 +4,7 @@
 int main(void) {
     WDTCTL = WDTPW | WDTHOLD;       //! Stop Watchdog (Not recommended for code in production and devices working in field)
 
-    P1OUT &=~ 0x41;                  // turn off LEDs
+    P1OUT &= ~0x41;                  // turn off LEDs
 
     //P1DIR |= BIT6;
     P1DIR |= 0x41;                  // Set P1.0 & P1.6 to output direction

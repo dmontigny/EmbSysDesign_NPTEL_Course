@@ -1,6 +1,17 @@
-#include <msp430.h> 
+/*
+ * file: Exp08_HelloClock.c
+ *   adapted from Exp08_LunchBox_HelloClock.c
+ *
+ * purpose: toggles on board LED when external switch is pressed. Input pin
+ *   is pulled down
+ *
+ *  David Montigny
+ *  dmontigny27@gmail.com
+ *  2020-11-10
+ */
+#include <msp430g2553.h>
 
-#define LED BIT7                        // Led Pin
+#define LED BIT6                        // Led Pin
 
 #define SW1 BIT3                        // 1.5Khz
 #define SW2 BIT4                        // 3Khz
