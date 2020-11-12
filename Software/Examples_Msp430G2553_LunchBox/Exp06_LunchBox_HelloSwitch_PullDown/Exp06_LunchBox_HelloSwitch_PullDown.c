@@ -13,7 +13,6 @@ void main(void) {
                                     // working in field)
 
     P1DIR |= LED;                   // Set LED pin -> Output
-
     P1DIR &= ~SW;                   // Set SW pin -> Input
     P1REN |= SW;                    // Enable Resistor for SW pin
     P1OUT &=~ SW;                   // Select Pull down for SW pin

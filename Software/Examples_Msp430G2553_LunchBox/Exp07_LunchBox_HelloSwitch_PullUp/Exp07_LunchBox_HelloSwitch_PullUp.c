@@ -8,7 +8,6 @@ void main(void) {
     WDTCTL = WDTPW | WDTHOLD;       //! Stop Watchdog (Not recommended for code in production and devices working in field)
 
     P1DIR |= LED;                   // Set LED pin -> Output
-
     P1DIR &= ~SW;                   // Set SW pin -> Input
     P1REN |= SW;                    // Enable Resistor for SW pin
     P1OUT |= SW;                    // Select Pull Up for SW pin
