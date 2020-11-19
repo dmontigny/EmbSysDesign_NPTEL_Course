@@ -28,7 +28,7 @@ void main(void) {
                 if (j !=0) delay(j);            // Delay for ON Time
                 P1OUT |= GREEN;                 // LED ON
                 P1OUT &= ~RED;                  // LED OFF
-                if ((255-j)!=0) delay(255-j);   // OFF Time = Period - ON Time
+                if ((255-j) !=0) delay(255-j);  // OFF Time = Period - ON Time
             }
             for(j = 255; j > 0; j--)            // Decreasing Intensity
             {
@@ -37,7 +37,7 @@ void main(void) {
                 if (j !=0) delay(j);            // Delay for ON Time
                 P1OUT |= GREEN;                 // LED ON
                 P1OUT &= ~RED;                  // LED OFF
-                if ((255-j) != 0 ) delay(255-j); // OFF Time = Period - ON Time
+                if ((255-j) != 0) delay(255-j); // OFF Time = Period - ON Time
             }
         }
 }

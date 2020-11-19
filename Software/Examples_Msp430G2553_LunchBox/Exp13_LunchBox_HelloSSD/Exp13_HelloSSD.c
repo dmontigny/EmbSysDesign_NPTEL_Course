@@ -63,4 +63,6 @@ void main(void) {
         }
         P1OUT = (P1OUT & DMASK) + digits[i];    // Display current digit
     }
+    int a;
+    a = LPM3_bits;
 }
